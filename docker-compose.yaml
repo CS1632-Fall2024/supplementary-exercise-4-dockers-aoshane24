@@ -4,7 +4,7 @@ services:
   server:
     build:
       context: '.'
-      dockerfile: Dockerfile.txt
+      dockerfile: Dockerfile
     container_name: rentacat
     ports:
       - "8080:8080"
